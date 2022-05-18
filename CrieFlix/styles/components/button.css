@@ -1,10 +1,15 @@
 .button{
     height: 40px;
     padding: 10px 24px;
-    background-color: #F41B3B;
-    font-size: 16px;
+    background-color: var(--color-primary);
+    font-size: var(--font-size-default);
     line-height: 22px;
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: var(border-radius-default);
+    border: none;
+}
+
+.button--large{
+    height: 60px;
 }
